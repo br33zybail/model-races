@@ -1,0 +1,20 @@
+Jul 12 04:08:06 host1 systemd[1]: Started gateway.service - API gateway.
+2026-06-20T21:36:35.092108+00:00 host1 kernel: EDAC MC0: 1 CE on mc#0csrow#0channel#4 (csrow:0 channel:4 page:0x6dcf3 offset:0xc00 grain:64 syndrome:0x80)
+2026-06-15T06:09:09.689131+00:00 host1 systemd-networkd[37601]: eno1np0: DHCPv4 address IPV4/24, gateway GATEWAY acquired from GATEWAY
+2026-07-02T11:14:22.190331+00:00 host1 kernel: Out of memory: Killed process 48122 (batch-worker) total-vm:18874368kB, anon-rss:16515072kB, file-rss:1024kB, shmem-rss:0kB, UID:1000 pgtables:36864kB oom_score_adj:0
+2026-06-20T23:20:21.010856+00:00 host1 kernel: EDAC MC0: 1 CE on mc#0csrow#1channel#4 (csrow:1 channel:4 page:0x1fd436a offset:0xc40 grain:64 syndrome:0x80)
+Jul 12 04:10:01 host1 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-06-15T06:09:10.597925+00:00 host1 tailscaled[2368]: Rebind; defIf="eno1np0", ips=[IPV4/24 IPV6/128 LINKLOCAL/64]
+2026-07-02T11:14:22.188112+00:00 host1 kernel: render-job invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_COMP|__GFP_ZERO), order=0, oom_score_adj=200
+2026-06-20T23:25:48.690061+00:00 host1 kernel: EDAC MC0: 1 CE on mc#0csrow#1channel#4 (csrow:1 channel:4 page:0x201f8ac offset:0x0 grain:64 syndrome:0xe0)
+Jul 12 04:03:35 host1 api-daemon[43883]: 2026-07-12T04:03:35.955443Z  INFO health: status check - Database: Ready JsonRPC Server: Ready gRPC Server: Ready
+2026-06-15T06:09:12.369825+00:00 host1 tailscaled[2368]: Rebind; defIf="eno1np0", ips=[IPV4/24 IPV6/128 LINKLOCAL/64]
+2026-07-02T11:14:22.195583+00:00 host1 kernel: oom_reaper: reaped process 48122 (batch-worker), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jul 12 03:17:01 host1 CRON[131442]: (svc) CMD (/usr/local/bin/check.sh >> /var/log/check.log 2>&1)
+2026-06-20T23:31:16.370885+00:00 host1 kernel: EDAC MC0: 1 CE on mc#0csrow#1channel#4 (csrow:1 channel:4 page:0x3dd88 offset:0x0 grain:64 syndrome:0x20)
+2026-06-15T06:09:10.592341+00:00 host1 tailscaled[2368]: LinkChange: major, rebinding: old: interfaces.State{defaultRoute=eno1np0} new: interfaces.State{defaultRoute=eno1np0} diff: HaveV4: false->true
+2026-07-02T11:14:22.191704+00:00 host1 kernel: Mem-Info: active_anon:41283776 inactive_anon:212992 isolated_anon:0 active_file:1024 inactive_file:512 isolated_file:0 unevictable:0 dirty:0 writeback:0
+Jul 12 02:45:11 host1 systemd[1]: Reloading requested from client PID 129981 ('systemctl')...
+2026-06-15T06:09:08.112450+00:00 host1 systemd-networkd[37601]: eno1np0: Link UP
+2026-06-20T21:38:02.441210+00:00 host1 kernel: EDAC MC0: 1 CE on mc#0csrow#0channel#1 (csrow:0 channel:1 page:0x41bb20 offset:0x380 grain:64 syndrome:0x40)
+2026-06-15T06:09:08.204331+00:00 host1 systemd-networkd[37601]: eno1np0: Gained carrier

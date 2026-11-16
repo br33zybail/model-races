@@ -1,0 +1,5 @@
+{
+  "open_bind": ["0.0.0.0", "auth"],
+  "admin_default": ["admin", "session"],
+  "lossy_cursor": ["microsecond", "cursor", ">="]
+}

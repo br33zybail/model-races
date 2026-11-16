@@ -1,0 +1,38 @@
+[
+  {
+    "model": "reasoner-fast",
+    "fixture": "F3",
+    "score": 1.0,
+    "wall_s": 1.9,
+    "cost_usd": 0.0018,
+    "tokens_in": 600,
+    "tokens_out": 2098,
+    "no_artifact": false,
+    "error": "",
+    "grade_error": ""
+  },
+  {
+    "model": "reasoner-fast-hi",
+    "fixture": "F3",
+    "score": 0.667,
+    "wall_s": 2.4,
+    "cost_usd": 0.003,
+    "tokens_in": 600,
+    "tokens_out": 3709,
+    "no_artifact": false,
+    "error": "",
+    "grade_error": ""
+  },
+  {
+    "model": "reasoner-hi",
+    "fixture": "F3",
+    "score": 0.667,
+    "wall_s": 18.8,
+    "cost_usd": 0.0011,
+    "tokens_in": 604,
+    "tokens_out": 2886,
+    "no_artifact": false,
+    "error": "",
+    "grade_error": ""
+  }
+]

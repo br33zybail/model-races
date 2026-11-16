@@ -1,0 +1,56 @@
+[
+  {
+    "topology": "solo",
+    "run": 1,
+    "fixture": "F3",
+    "score": 1.0,
+    "status": "ok",
+    "tokens_out": 1789,
+    "wall_s": 3.3
+  },
+  {
+    "topology": "solo",
+    "run": 2,
+    "fixture": "F3",
+    "score": 0.0,
+    "status": "ok",
+    "tokens_out": 1754,
+    "wall_s": 61.4
+  },
+  {
+    "topology": "verify",
+    "run": 1,
+    "fixture": "F3",
+    "score": 0.333,
+    "status": "ok",
+    "tokens_out": 6069,
+    "wall_s": 69.4
+  },
+  {
+    "topology": "verify",
+    "run": 2,
+    "fixture": "F3",
+    "score": 0.0,
+    "status": "ok",
+    "tokens_out": 6501,
+    "wall_s": 108.4
+  },
+  {
+    "topology": "swarm",
+    "run": 1,
+    "fixture": "F3",
+    "score": 0.0,
+    "status": "ok",
+    "tokens_out": 8972,
+    "wall_s": 48.1
+  },
+  {
+    "topology": "swarm",
+    "run": 2,
+    "fixture": "F3",
+    "score": 0.0,
+    "status": "ok",
+    "tokens_out": 10758,
+    "wall_s": 60.5
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {"name": "date-parse", "prompt": "Write a Python function parse_date(line) that extracts the first MM/DD/YYYY date from a string and returns it as YYYY-MM-DD. Only code, no prose.", "expect": "strptime|re\\.(search|match|findall)"},
+  {"name": "statement-row", "prompt": "Convert this bank statement line to JSON with keys date, description, amount (negative for debits): '01/15/2026  ACH WITHDRAWAL VENMO PAYMENT  -125.50'. Reply with only the JSON object.", "expect": "\"amount\":\\s*-125\\.5"},
+  {"name": "bash-largest", "prompt": "One bash command to list the 5 largest files under /var by size, human readable. Only the command.", "expect": "du|find.*-size|sort"},
+  {"name": "sql-dedupe", "prompt": "PostgreSQL: delete duplicate rows from table tx keeping lowest id, duplicates defined by (date, amount, description). Only the SQL.", "expect": "(?i)(delete.*from.*tx|row_number|min\\(id\\))"},
+  {"name": "regex-amount", "prompt": "Write a single regex that matches US currency amounts like 1,234.56 or -125.50 or $99.00 (optional $, optional minus, optional thousands commas, required 2 decimals). Reply with only the regex.", "expect": "\\\\d\\{2\\}|\\\\d{2}|\\[0-9\\]\\{2\\}"},
+  {"name": "systemd-unit", "prompt": "Write a minimal systemd service unit that runs /usr/local/bin/worker.sh as user svc, restarts on failure, starts after network-online.target. Only the unit file.", "expect": "(?im)^\\[Service\\]"},
+  {"name": "py-test", "prompt": "Write pytest tests (3 cases: normal, missing date, multiple dates) for: def first_date(s): m=re.search(r'\\d{2}/\\d{2}/\\d{4}',s); return m.group(0) if m else None. Only code.", "expect": "def test_.*def test_.*def test_"},
+  {"name": "jq-transform", "prompt": "jq expression to convert [{\"n\":\"a\",\"v\":1},{\"n\":\"b\",\"v\":2}] into {\"a\":1,\"b\":2}. Only the jq program.", "expect": "from_entries|reduce|add|INDEX"},
+  {"name": "csv-awk", "prompt": "awk one-liner to sum column 3 of a CSV (skip header row). Only the command.", "expect": "NR\\s*>\\s*1|NR!=1|FNR\\s*>\\s*1"},
+  {"name": "explain-sigbus", "prompt": "In two sentences: what does it mean when the Linux kernel sends SIGBUS to a process citing 'hardware memory corruption'?", "expect": "(?i)ecc|memory|uncorrectable|page"}
+]

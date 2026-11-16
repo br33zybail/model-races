@@ -1,0 +1,15 @@
+# verdict-api deployment config
+service:
+  name: verdict-api
+  bind: 0.0.0.0:8080          # listen address
+  auth: none                   # TODO: wire up auth once the SSO team is ready
+  workers: 4
+  timeout_s: 30
+
+database:
+  url: postgres://verdict:verdict@db.example.internal:5432/verdict
+  pool_size: 8
+
+logging:
+  level: info
+  path: /var/log/verdict/api.log

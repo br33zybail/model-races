@@ -1,0 +1,134 @@
+[
+  {
+    "model": "qwen3-coder-30b LOCAL",
+    "fixture": "F1",
+    "score": 0.0,
+    "wall_s": 39.4,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  {
+    "model": "qwen3-coder-30b LOCAL",
+    "fixture": "F2",
+    "score": 0.0,
+    "wall_s": 148.3,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": ""
+  },
+  {
+    "model": "qwen3-coder-30b LOCAL",
+    "fixture": "F3",
+    "score": 0.667,
+    "wall_s": 37.3,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "qwen3-coder-30b LOCAL",
+    "fixture": "F4",
+    "score": 1.0,
+    "wall_s": 86.4,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-20b LOCAL",
+    "fixture": "F1",
+    "score": 1.0,
+    "wall_s": 107.6,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-20b LOCAL",
+    "fixture": "F2",
+    "score": 0.95,
+    "wall_s": 322.7,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-20b LOCAL",
+    "fixture": "F3",
+    "score": 0.0,
+    "wall_s": 308.6,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-20b LOCAL",
+    "fixture": "F4",
+    "score": 1.0,
+    "wall_s": 225.5,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": false,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-120b LOCAL",
+    "fixture": "F1",
+    "score": 0.0,
+    "wall_s": 780.6,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-120b LOCAL",
+    "fixture": "F2",
+    "score": 0.0,
+    "wall_s": 19.1,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-120b LOCAL",
+    "fixture": "F3",
+    "score": 0.0,
+    "wall_s": 58.3,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": ""
+  },
+  {
+    "model": "gpt-oss-120b LOCAL",
+    "fixture": "F4",
+    "score": 0.0,
+    "wall_s": 26.8,
+    "cost_usd": 0.0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "no_artifact": true,
+    "error": ""
+  }
+]
